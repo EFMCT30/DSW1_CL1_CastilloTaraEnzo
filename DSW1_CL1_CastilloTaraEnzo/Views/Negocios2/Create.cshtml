@@ -1,0 +1,60 @@
+﻿@model DSW1_CL1_CastilloTaraEnzo.Models.Insumo
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 style="text-align:center">Ingrese Nuevo Insumo</h1>
+
+<br />
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="codIns" class="control-label"></label>
+                <input asp-for="codIns" class="form-control" />
+                <span asp-validation-for="codIns" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="desIns" class="control-label"></label>
+                <input asp-for="desIns" class="form-control" />
+                <span asp-validation-for="desIns" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="codCate" class="control-label"></label>
+                <select asp-for="codCate" asp-items="@ViewBag.categorias" class="form-select"></select>
+                <span asp-validation-for="codCate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="preciou" class="control-label"></label>
+                <input asp-for="preciou" class="form-control" />
+                <span asp-validation-for="preciou" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="stockIns" class="control-label"></label>
+                <input asp-for="stockIns" class="form-control" />
+                <span asp-validation-for="stockIns" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <a asp-action="Create" class="btn btn-success" asp-route-id="">Limpiar</a>
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<div>@ViewBag.mensaje</div>
+
+<div>
+    @Html.Partial("_VistaInsumos", ViewBag.insumos as IEnumerable<DSW1_CL1_CastilloTaraEnzo.Models.Insumo>)
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

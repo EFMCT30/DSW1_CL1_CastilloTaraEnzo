@@ -1,0 +1,69 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DSW1_CL1_CastilloTaraEnzo
+build_property.RootNamespace = DSW1_CL1_CastilloTaraEnzo
+build_property.ProjectDir = C:\Users\Castillo\Desktop\DesarrolloWeb1\DSW1_CL1_CastilloTaraEnzo\DSW1_CL1_CastilloTaraEnzo\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Castillo\Desktop\DesarrolloWeb1\DSW1_CL1_CastilloTaraEnzo\DSW1_CL1_CastilloTaraEnzo
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Castillo/Desktop/DesarrolloWeb1/DSW1_CL1_CastilloTaraEnzo/DSW1_CL1_CastilloTaraEnzo/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Castillo/Desktop/DesarrolloWeb1/DSW1_CL1_CastilloTaraEnzo/DSW1_CL1_CastilloTaraEnzo/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Castillo/Desktop/DesarrolloWeb1/DSW1_CL1_CastilloTaraEnzo/DSW1_CL1_CastilloTaraEnzo/Views/Negocios2/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmVnb2Npb3MyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Castillo/Desktop/DesarrolloWeb1/DSW1_CL1_CastilloTaraEnzo/DSW1_CL1_CastilloTaraEnzo/Views/Negocios2/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmVnb2Npb3MyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Castillo/Desktop/DesarrolloWeb1/DSW1_CL1_CastilloTaraEnzo/DSW1_CL1_CastilloTaraEnzo/Views/Negocios2/_VistaInsumos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmVnb2Npb3MyXF9WaXN0YUluc3Vtb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Castillo/Desktop/DesarrolloWeb1/DSW1_CL1_CastilloTaraEnzo/DSW1_CL1_CastilloTaraEnzo/Views/Negocios/ListaPedidos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmVnb2Npb3NcTGlzdGFQZWRpZG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Castillo/Desktop/DesarrolloWeb1/DSW1_CL1_CastilloTaraEnzo/DSW1_CL1_CastilloTaraEnzo/Views/Negocios/PaginacionPedidosXYear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmVnb2Npb3NcUGFnaW5hY2lvblBlZGlkb3NYWWVhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Castillo/Desktop/DesarrolloWeb1/DSW1_CL1_CastilloTaraEnzo/DSW1_CL1_CastilloTaraEnzo/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Castillo/Desktop/DesarrolloWeb1/DSW1_CL1_CastilloTaraEnzo/DSW1_CL1_CastilloTaraEnzo/Views/Shared/_ListaPedidos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MaXN0YVBlZGlkb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Castillo/Desktop/DesarrolloWeb1/DSW1_CL1_CastilloTaraEnzo/DSW1_CL1_CastilloTaraEnzo/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Castillo/Desktop/DesarrolloWeb1/DSW1_CL1_CastilloTaraEnzo/DSW1_CL1_CastilloTaraEnzo/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Castillo/Desktop/DesarrolloWeb1/DSW1_CL1_CastilloTaraEnzo/DSW1_CL1_CastilloTaraEnzo/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Castillo/Desktop/DesarrolloWeb1/DSW1_CL1_CastilloTaraEnzo/DSW1_CL1_CastilloTaraEnzo/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9gp7d5gvw6

@@ -1,0 +1,30 @@
+﻿@model IEnumerable<DSW1_CL1_CastilloTaraEnzo.Models.Pedido>
+
+<div>
+    <h1 style="text-align:center;text-decoration:underline">CONSULTA DE PEDIDOS POR AÑO</h1>
+</div>
+
+<br />
+<hr />
+<form>
+    <em>Ingrese el Año:</em>
+    @Html.TextBox("y",0,new {type="number"})
+    <button>Consultar</button>
+</form>
+
+<br />
+<div>
+    @Html.Partial("_ListaPedidos")
+</div>
+
+<br />
+<div>
+    @for (var i = 0; i < (int)ViewBag.pags; i++)
+    {
+        @if ((int)ViewBag.p == i)
+            @Html.ActionLink((i+1).ToString(),"PaginacionPedidosXYear",new{p=i, y=(int)ViewBag.y},new {@class="btn btn-danger"})
+        else
+            @Html.ActionLink((i + 1).ToString(), "PaginacionPedidosXYear", new { p = i, y=(int)ViewBag.y }, new { @class = "btn btn-primary"})
+
+    }
+</div>

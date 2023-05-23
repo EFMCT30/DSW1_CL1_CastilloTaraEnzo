@@ -1,0 +1,40 @@
+﻿@model IEnumerable<DSW1_CL1_CastilloTaraEnzo.Models.Pedido>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.idPedido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fecha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.direc)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.idPedido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fecha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.direc)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
